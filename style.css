@@ -47,11 +47,61 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 overflow: hidden;
-
+animation-name: prince;
+animation-iteration-count: infinite;
+animation-delay: 8s;
+animation-direction: alternate;
+animation-duration: 20s;
+animation-direction: reverse;
 } 
+@keyframes prince  {
+  0%{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)),url("great-programmer.jpg");
+    
+  }
+20%{
+
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)),url("607b1df44a2ff5fefa241045_howtobecomearoboticsengineer.png");
+
+
+}
+
+40%{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)),url("istockphoto-941796726-612x612.jpg");
+
+}
+60%{
+
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)),url("STEM_Careers_Civil_Engineering-scaled.jpg");
+
+}
+
+100%{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)),url("great-programmer.jpg");
+
+}
+  }
+
+
+
+  
+
+
 .section-first{
-    height: 40rem;
+    height: 48rem;
     width: 100%;
+}
+.fab.fa-instagram:hover{
+color: rgb(246, 2, 71);
+}
+.fab.fa-linkedin:hover{
+  color: rgb(64, 64, 252);
+}
+.fab.fa-twitter:hover{
+  color: rgb(77, 77, 249);
+}
+.fab.fa-youtube:hover{
+  color: red;
 }
 
 
@@ -92,7 +142,7 @@ input[type="checkbox"]{
     display: block;
     transition: all 0.3s ease;
   }
-  #click:checked ~ ul{
+  #click:checked ul{
     left: 0;
   }
   nav ul li{
@@ -129,7 +179,11 @@ input[type="checkbox"]{
 .content div{
   font-size: 40px;
   font-weight: 700;
+ 
 }
+
+
+
 .middle-box{
     height: 30rem;
     background-color: #dbdbdbe3;
@@ -193,6 +247,10 @@ input[type="checkbox"]{
     color: white;
 
 }
+
+
+
+
 #text{
     border-radius: 5px;
     width: 20rem;
